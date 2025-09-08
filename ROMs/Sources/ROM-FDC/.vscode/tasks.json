@@ -1,0 +1,170 @@
+{
+    "version": "2.0.0",
+    "tasks": [
+		{
+			"label": "make T-MONITOR (sjasmplus)",
+			"type": "shell",
+			"command": "sjasmplus",
+			"args": [
+				"--sld=turbo_mon.sld",
+				"--sym=turbo_mon.labels",
+				"--raw=turbo_mon.obj",
+				"--fullpath",
+				"turbo_mon.asm"
+			],
+			"problemMatcher": {
+				"owner": "sjasmplus",
+				"fileLocation": "autoDetect",
+				"pattern": {
+					"regexp": "^(.*)\\((\\d+)\\):\\s+(warning|error):\\s+(.*)$",
+					"file": 1,
+					"line": 2,
+					"severity": 3,
+					"message": 4
+				}
+			},
+			"group": {
+				"kind": "build",
+				"isDefault": false
+			}
+		},
+		{
+			"label": "make BDOS (sjasmplus)",
+			"type": "shell",
+			"command": "sjasmplus",
+			"args": [
+				"--sld=bdos.sld",
+				"--sym=bdos.labels",
+				"--raw=bdos.obj",
+				"--fullpath",
+				"bdos.asm"
+			],
+			"problemMatcher": {
+				"owner": "sjasmplus",
+				"fileLocation": "autoDetect",
+				"pattern": {
+					"regexp": "^(.*)\\((\\d+)\\):\\s+(warning|error):\\s+(.*)$",
+					"file": 1,
+					"line": 2,
+					"severity": 3,
+					"message": 4
+				}
+			},
+			"group": {
+				"kind": "build",
+				"isDefault": false
+			}
+		},
+		{
+			"label": "make BIOS (sjasmplus)",
+			"type": "shell",
+			"command": "sjasmplus",
+			"args": [
+				"--sld=bios.sld",
+				"--sym=bios.labels",
+				"--raw=bios.obj",
+				"--fullpath",
+				"bios.asm"
+			],
+			"problemMatcher": {
+				"owner": "sjasmplus",
+				"fileLocation": "autoDetect",
+				"pattern": {
+					"regexp": "^(.*)\\((\\d+)\\):\\s+(warning|error):\\s+(.*)$",
+					"file": 1,
+					"line": 2,
+					"severity": 3,
+					"message": 4
+				}
+			},
+			"group": {
+				"kind": "build",
+				"isDefault": false
+			}
+		},
+
+		{
+			"label": "make CCP_RAM (sjasmplus)",
+			"type": "shell",
+			"command": "sjasmplus",
+			"args": [
+				"--sld=ccp_ram.sld",
+				"--sym=ccp_ram.labels",
+				"--raw=ccp_ram.obj",
+				"--fullpath",
+				"ccp_ram.asm"
+			],
+			"problemMatcher": {
+				"owner": "sjasmplus",
+				"fileLocation": "autoDetect",
+				"pattern": {
+					"regexp": "^(.*)\\((\\d+)\\):\\s+(warning|error):\\s+(.*)$",
+					"file": 1,
+					"line": 2,
+					"severity": 3,
+					"message": 4
+				}
+			},
+			"group": {
+				"kind": "build",
+				"isDefault": false
+			}
+		},
+		{
+			"label": "make CCP_ROM (sjasmplus)",
+			"type": "shell",
+			"command": "sjasmplus",
+			"args": [
+				"--sld=ccp_rom.sld",
+				"--sym=ccp_rom.labels",
+				"--raw=ccp_rom.obj",
+				"--fullpath",
+				"ccp_rom.asm"
+			],
+			"problemMatcher": {
+				"owner": "sjasmplus",
+				"fileLocation": "autoDetect",
+				"pattern": {
+					"regexp": "^(.*)\\((\\d+)\\):\\s+(warning|error):\\s+(.*)$",
+					"file": 1,
+					"line": 2,
+					"severity": 3,
+					"message": 4
+				}
+			},
+			"group": {
+				"kind": "build",
+				"isDefault": false
+			}
+		},
+
+		{
+			"label": "make CPM (sjasmplus)",
+			"type": "shell",
+			"command": "sjasmplus",
+			"args": [
+				"--sld=cpm.sld",
+				"--sym=cpm.labels",
+				"--raw=cpm.obj",
+				"--fullpath",
+				"cpm.asm"
+			],
+			"problemMatcher": {
+				"owner": "sjasmplus",
+				"fileLocation": "autoDetect",
+				"pattern": {
+					"regexp": "^(.*)\\((\\d+)\\):\\s+(warning|error):\\s+(.*)$",
+					"file": 1,
+					"line": 2,
+					"severity": 3,
+					"message": 4
+				}
+			},
+			"group": {
+				"kind": "build",
+				"isDefault": true
+			}
+		}
+
+	]
+}
