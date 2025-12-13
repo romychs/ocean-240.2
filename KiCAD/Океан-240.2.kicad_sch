@@ -1,0 +1,325 @@
+(kicad_sch
+	(version 20250114)
+	(generator "eeschema")
+	(generator_version "9.0")
+	(uuid "50d840bf-8433-46e1-bba7-c2626ea20bd0")
+	(paper "A4")
+	(title_block
+		(title "Океан-240.2")
+		(date "01.10.25")
+		(rev "v1.0.2")
+		(company "Romych's home")
+		(comment 1 "Содержание")
+		(comment 2 "Бойков Р.")
+		(comment 3 "Бойков Р.")
+	)
+	(lib_symbols)
+	(sheet
+		(at 50.8 102.87)
+		(size 12.7 3.81)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0.0000)
+		)
+		(uuid "05a9ac1e-25ee-4130-ad35-781ed0bbb91d")
+		(property "Sheetname" "Океан-240.2 - Вводвывод на магнитофон"
+			(at 50.8 102.1584 0)
+			(effects
+				(font
+					(face "InputSansCondensed Medium")
+					(size 2.54 2.54)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "Tape.kicad_sch"
+			(at 50.8 107.2646 0)
+			(effects
+				(font
+					(face "Input Sans Condensed")
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(instances
+			(project "Океан-240.2"
+				(path "/50d840bf-8433-46e1-bba7-c2626ea20bd0"
+					(page "6")
+				)
+			)
+		)
+	)
+	(sheet
+		(at 50.8 52.07)
+		(size 12.7 3.81)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0.0000)
+		)
+		(uuid "0e86c361-786b-4f6d-a57a-b00d3df8633f")
+		(property "Sheetname" "Океан-240.2 - Управление DRAM"
+			(at 50.8 51.3584 0)
+			(effects
+				(font
+					(face "InputSansCondensed Medium")
+					(size 2.54 2.54)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "RAM_CTR.kicad_sch"
+			(at 50.8 56.4646 0)
+			(effects
+				(font
+					(face "Input Sans Condensed")
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(instances
+			(project "Океан-240.2"
+				(path "/50d840bf-8433-46e1-bba7-c2626ea20bd0"
+					(page "2")
+				)
+			)
+		)
+	)
+	(sheet
+		(at 50.8 90.17)
+		(size 12.7 3.81)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0.0000)
+		)
+		(uuid "27d7952b-6707-4cff-9f3b-6a76a2f39131")
+		(property "Sheetname" "Океан-240.2 - Источники питания"
+			(at 50.8 89.4584 0)
+			(effects
+				(font
+					(face "InputSansCondensed Medium")
+					(size 2.54 2.54)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "Power.kicad_sch"
+			(at 50.8 94.5646 0)
+			(effects
+				(font
+					(face "Input Sans Condensed")
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(instances
+			(project "Океан-240.2"
+				(path "/50d840bf-8433-46e1-bba7-c2626ea20bd0"
+					(page "5")
+				)
+			)
+		)
+	)
+	(sheet
+		(at 50.8 115.57)
+		(size 12.7 3.81)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0.0000)
+		)
+		(uuid "2b14f31d-443b-4911-b6d0-c5d7fa45ca2f")
+		(property "Sheetname" "Океан-240.2 - Интерфейсы"
+			(at 50.8 114.8584 0)
+			(effects
+				(font
+					(face "InputSansCondensed Medium")
+					(size 2.54 2.54)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "Interfaces.kicad_sch"
+			(at 50.8 119.9646 0)
+			(effects
+				(font
+					(face "Input Sans Condensed")
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(instances
+			(project "Океан-240.2"
+				(path "/50d840bf-8433-46e1-bba7-c2626ea20bd0"
+					(page "7")
+				)
+			)
+		)
+	)
+	(sheet
+		(at 50.8 77.47)
+		(size 12.7 3.81)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0.0000)
+		)
+		(uuid "32b4ede8-d843-4b28-91e8-92df86cd5ed4")
+		(property "Sheetname" "Океан-240.2 - Видео"
+			(at 50.8 76.1234 0)
+			(effects
+				(font
+					(face "InputSansCondensed Medium")
+					(size 2.54 2.54)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "Video.kicad_sch"
+			(at 50.8 81.8646 0)
+			(effects
+				(font
+					(face "Input Sans Condensed")
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(instances
+			(project "Океан-240.2"
+				(path "/50d840bf-8433-46e1-bba7-c2626ea20bd0"
+					(page "4")
+				)
+			)
+		)
+	)
+	(sheet
+		(at 50.8 39.37)
+		(size 12.7 3.81)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0.0000)
+		)
+		(uuid "796e2f02-6541-4572-8cae-13055ce7a735")
+		(property "Sheetname" "Океан-240.2 - ЦПУ, ПЗУ, синхронизация"
+			(at 50.8 38.0234 0)
+			(effects
+				(font
+					(face "InputSansCondensed Medium")
+					(size 2.54 2.54)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "CPU.kicad_sch"
+			(at 50.8 43.7646 0)
+			(effects
+				(font
+					(face "Input Sans Condensed")
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(instances
+			(project "Океан-240.2"
+				(path "/50d840bf-8433-46e1-bba7-c2626ea20bd0"
+					(page "1")
+				)
+			)
+		)
+	)
+	(sheet
+		(at 50.8 64.77)
+		(size 12.7 3.81)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0.0000)
+		)
+		(uuid "9c151274-ecfc-4601-b556-8d623db0bc60")
+		(property "Sheetname" "Океан-240.2 - Динамическое ЗУ"
+			(at 50.8 64.0584 0)
+			(effects
+				(font
+					(face "InputSansCondensed Medium")
+					(size 2.54 2.54)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "DRAM.kicad_sch"
+			(at 50.8 69.1646 0)
+			(effects
+				(font
+					(face "Input Sans Condensed")
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(instances
+			(project "Океан-240.2"
+				(path "/50d840bf-8433-46e1-bba7-c2626ea20bd0"
+					(page "3")
+				)
+			)
+		)
+	)
+)
