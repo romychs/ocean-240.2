@@ -2767,7 +2767,7 @@
 			)
 			(embedded_fonts no)
 		)
-		(symbol "Romychs_Logic_TTL:КР1533ЛИ1"
+		(symbol "Romychs_Logic_TTL:КР1533ЛЛ1"
 			(exclude_from_sim no)
 			(in_bom yes)
 			(on_board yes)
@@ -2781,7 +2781,7 @@
 					(justify bottom)
 				)
 			)
-			(property "Value" "КР1533ЛИ1"
+			(property "Value" "КР1533ЛЛ1"
 				(at 8.89 -5.842 0)
 				(do_not_autoplace)
 				(effects
@@ -2792,7 +2792,7 @@
 				)
 			)
 			(property "Footprint" "Romychs_IC_DIP:DIP-14_W7.62mm"
-				(at 8.89 -11.43 0)
+				(at 8.89 -10.922 0)
 				(effects
 					(font
 						(face "Input Sans Condensed")
@@ -2811,8 +2811,8 @@
 					(hide yes)
 				)
 			)
-			(property "Description" "4x2И"
-				(at 8.89 -9.144 0)
+			(property "Description" "4x2ИЛИ"
+				(at 8.89 -8.89 0)
 				(effects
 					(font
 						(face "Input Sans Condensed")
@@ -2821,16 +2821,7 @@
 					(hide yes)
 				)
 			)
-			(property "ki_keywords" "AND"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(symbol "КР1533ЛИ1_0_0"
+			(symbol "КР1533ЛЛ1_0_0"
 				(rectangle
 					(start 5.08 2.54)
 					(end 12.7 -5.08)
@@ -2843,19 +2834,18 @@
 					)
 				)
 			)
-			(symbol "КР1533ЛИ1_0_1"
-				(text "&"
+			(symbol "КР1533ЛЛ1_0_1"
+				(text "1"
 					(at 6.35 0.9017 0)
 					(effects
 						(font
-							(face "Input Sans Condensed")
-							(size 2.159 2.159)
+							(size 2.1717 2.1717)
 						)
 						(justify left top)
 					)
 				)
 			)
-			(symbol "КР1533ЛИ1_1_1"
+			(symbol "КР1533ЛЛ1_1_1"
 				(pin input line
 					(at 0 0 0)
 					(length 5.08)
@@ -2949,7 +2939,7 @@
 					)
 				)
 			)
-			(symbol "КР1533ЛИ1_2_1"
+			(symbol "КР1533ЛЛ1_2_1"
 				(pin input line
 					(at 0 0 0)
 					(length 5.08)
@@ -3005,7 +2995,7 @@
 					)
 				)
 			)
-			(symbol "КР1533ЛИ1_3_1"
+			(symbol "КР1533ЛЛ1_3_1"
 				(pin input line
 					(at 0 0 0)
 					(length 5.08)
@@ -3061,7 +3051,7 @@
 					)
 				)
 			)
-			(symbol "КР1533ЛИ1_4_1"
+			(symbol "КР1533ЛЛ1_4_1"
 				(pin input line
 					(at 0 0 0)
 					(length 5.08)
@@ -4170,7 +4160,7 @@
 	)
 	(wire
 		(pts
-			(xy 379.73 186.69) (xy 384.81 186.69)
+			(xy 379.73 186.69) (xy 386.08 186.69)
 		)
 		(stroke
 			(width 0)
@@ -4480,7 +4470,7 @@
 	)
 	(wire
 		(pts
-			(xy 384.81 186.69) (xy 384.81 156.21)
+			(xy 386.08 186.69) (xy 386.08 156.21)
 		)
 		(stroke
 			(width 0)
@@ -4570,7 +4560,7 @@
 	)
 	(wire
 		(pts
-			(xy 384.81 156.21) (xy 360.68 156.21)
+			(xy 386.08 156.21) (xy 360.68 156.21)
 		)
 		(stroke
 			(width 0)
@@ -11736,133 +11726,6 @@
 		)
 	)
 	(symbol
-		(lib_id "Romychs_Logic_TTL:КР1533ЛИ1")
-		(at 165.1 191.77 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "2352ff60-eabd-4f16-8a25-7aca4c6a37bb")
-		(property "Reference" "DD22"
-			(at 173.99 188.468 0)
-			(do_not_autoplace yes)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify bottom)
-			)
-		)
-		(property "Value" "КР1533ЛИ1"
-			(at 173.99 197.612 0)
-			(do_not_autoplace yes)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify top)
-			)
-		)
-		(property "Footprint" "Romychs_IC_DIP:DIP-14_W7.62mm"
-			(at 173.99 202.692 0)
-			(effects
-				(font
-					(face "Input Sans Condensed")
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 165.1 191.77 0)
-			(effects
-				(font
-					(face "Input Sans Condensed")
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "4x2И"
-			(at 173.99 200.66 0)
-			(effects
-				(font
-					(face "Input Sans Condensed")
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Supplier" "chipdip"
-			(at 173.99 204.978 0)
-			(effects
-				(font
-					(face "Input Sans Condensed")
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "5"
-			(uuid "beef953b-b203-48c1-b047-c6bb979cb48b")
-		)
-		(pin "4"
-			(uuid "13738bfe-10d0-4af3-ba77-89e7e28c9dcd")
-		)
-		(pin "3"
-			(uuid "aecaf5a8-9adf-46d9-b110-3708db167e9f")
-		)
-		(pin "1"
-			(uuid "f1f40516-9362-488d-946b-af3fa0cade75")
-		)
-		(pin "10"
-			(uuid "b72a2248-03d6-44b5-8629-1c9ca8244d5d")
-		)
-		(pin "7"
-			(uuid "9f82d4e6-98db-49ce-989d-d36408bd6529")
-		)
-		(pin "2"
-			(uuid "d47b8353-6f75-4710-9334-d32fc362eeb4")
-		)
-		(pin "6"
-			(uuid "fb2149a0-41fa-429a-a599-2a5a967e418f")
-		)
-		(pin "12"
-			(uuid "b7c59a0e-a6a5-49fd-92a4-1b5a59c80ef6")
-		)
-		(pin "8"
-			(uuid "6a4b397d-4d18-4b17-9c95-0fb7b5fb48a9")
-		)
-		(pin "13"
-			(uuid "91029628-4b29-4e1a-9f8f-d66938e46a93")
-		)
-		(pin "14"
-			(uuid "2db7afbc-1663-4c37-838f-680f3f8ebbc4")
-		)
-		(pin "9"
-			(uuid "6a5475e5-ecb8-4d23-935c-216197cb821f")
-		)
-		(pin "11"
-			(uuid "52396084-2107-4e07-9b09-e0f137ad666b")
-		)
-		(instances
-			(project ""
-				(path "/50d840bf-8433-46e1-bba7-c2626ea20bd0/0e86c361-786b-4f6d-a57a-b00d3df8633f"
-					(reference "DD22")
-					(unit 1)
-				)
-			)
-			(project "RAM_CTR copy"
-				(path "/ddf6abd7-6a61-436d-8639-0cbed1756aab"
-					(reference "DD?")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "power:GND")
 		(at 302.26 149.86 0)
 		(unit 1)
@@ -12212,7 +12075,7 @@
 		)
 	)
 	(symbol
-		(lib_id "Romychs_Logic_TTL:КР1533ЛИ1")
+		(lib_id "Romychs_Logic_TTL:КР1533ЛЛ1")
 		(at 115.57 200.66 0)
 		(unit 2)
 		(exclude_from_sim no)
@@ -12220,7 +12083,7 @@
 		(on_board yes)
 		(dnp no)
 		(fields_autoplaced yes)
-		(uuid "361762eb-ada2-4d2a-86c3-622c8db818c6")
+		(uuid "35c4816a-c0a6-4246-b30b-9e99adb1e84d")
 		(property "Reference" "DD22"
 			(at 124.46 197.358 0)
 			(do_not_autoplace yes)
@@ -12231,7 +12094,7 @@
 				(justify bottom)
 			)
 		)
-		(property "Value" "КР1533ЛИ1"
+		(property "Value" "КР1533ЛЛ1"
 			(at 124.46 206.502 0)
 			(do_not_autoplace yes)
 			(effects
@@ -12261,7 +12124,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "4x2И"
+		(property "Description" "4x2ИЛИ"
 			(at 124.46 209.55 0)
 			(effects
 				(font
@@ -12271,69 +12134,53 @@
 				(hide yes)
 			)
 		)
-		(property "Supplier" "chipdip"
-			(at 124.46 213.868 0)
-			(effects
-				(font
-					(face "Input Sans Condensed")
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "14"
-			(uuid "2854f93b-9725-4dc4-b42f-8cad46a67d3e")
-		)
-		(pin "9"
-			(uuid "a27d51a6-ec3a-4af3-9724-deef10db5bd2")
-		)
 		(pin "12"
-			(uuid "17932c7d-005a-4dfe-b010-915583690b3a")
-		)
-		(pin "7"
-			(uuid "ca3580d2-3d60-48a9-bb3a-f121917808cc")
-		)
-		(pin "4"
-			(uuid "c3f16a45-d2b4-4282-a9e3-ed2fcb9edd00")
-		)
-		(pin "3"
-			(uuid "830201e3-4eaf-4837-959b-8107eb14443d")
-		)
-		(pin "1"
-			(uuid "6976a575-dfa5-49a7-b491-9936db938fe5")
-		)
-		(pin "13"
-			(uuid "961fc20c-7fca-41d0-813a-aec04e9649bd")
-		)
-		(pin "11"
-			(uuid "9f9431ba-ec44-4151-810a-8d4fb59eabaf")
+			(uuid "786ffcc3-e630-4977-8b9c-39508e567b6c")
 		)
 		(pin "2"
-			(uuid "3ff63620-3c3c-4d9d-b46c-928da41dd330")
-		)
-		(pin "10"
-			(uuid "2a283d4a-917f-4b18-8ec9-c9b9083bb934")
-		)
-		(pin "5"
-			(uuid "ae92e0a0-3dd7-4ce9-96e2-22d8e0ff907f")
+			(uuid "08b0338d-e12a-48b5-b195-344b4958a93b")
 		)
 		(pin "8"
-			(uuid "524604fe-9431-4c3a-81b0-18ac7b65c77f")
+			(uuid "3ffc5ca9-32f0-4c13-885b-945a70e26caf")
+		)
+		(pin "11"
+			(uuid "5aa65d2c-ed2f-4b9f-80ba-2cfee1b243a1")
+		)
+		(pin "4"
+			(uuid "0ef3e636-15de-43f8-a605-b28f401689c4")
+		)
+		(pin "10"
+			(uuid "611cabd5-a8a2-4e85-8884-becf74a3d247")
 		)
 		(pin "6"
-			(uuid "cb02d132-2a18-4964-af10-731bd923d076")
+			(uuid "700ab4a5-2fe6-4480-b0f4-f498b1f3d7be")
+		)
+		(pin "5"
+			(uuid "733a242a-adf4-447e-b8e4-013faa1878b7")
+		)
+		(pin "1"
+			(uuid "9416d44b-3400-46b9-92da-dbfdd0923eeb")
+		)
+		(pin "7"
+			(uuid "dcdd8f0f-0156-42f0-83a9-72330b727cb9")
+		)
+		(pin "9"
+			(uuid "472ba99c-dd75-4045-93d0-d0446b2dbec7")
+		)
+		(pin "13"
+			(uuid "7e443a2d-d10a-4c3e-8f90-f7d36f6fdc89")
+		)
+		(pin "14"
+			(uuid "2680b9f7-6706-496c-bc96-41be21d08dd4")
+		)
+		(pin "3"
+			(uuid "966aad22-5435-475a-b6ed-b50e9e36a8ee")
 		)
 		(instances
 			(project ""
 				(path "/50d840bf-8433-46e1-bba7-c2626ea20bd0/0e86c361-786b-4f6d-a57a-b00d3df8633f"
 					(reference "DD22")
 					(unit 2)
-				)
-			)
-			(project "RAM_CTR copy"
-				(path "/ddf6abd7-6a61-436d-8639-0cbed1756aab"
-					(reference "DD?")
-					(unit 1)
 				)
 			)
 		)
@@ -12525,6 +12372,117 @@
 				(path "/ddf6abd7-6a61-436d-8639-0cbed1756aab"
 					(reference "R?")
 					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Romychs_Logic_TTL:КР1533ЛЛ1")
+		(at 339.09 172.72 0)
+		(unit 3)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "4b8607b1-195d-4ca9-baaf-f4fa6fd39ae0")
+		(property "Reference" "DD22"
+			(at 347.98 169.418 0)
+			(do_not_autoplace yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+			)
+		)
+		(property "Value" "КР1533ЛЛ1"
+			(at 347.98 178.562 0)
+			(do_not_autoplace yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify top)
+			)
+		)
+		(property "Footprint" "Romychs_IC_DIP:DIP-14_W7.62mm"
+			(at 347.98 183.642 0)
+			(effects
+				(font
+					(face "Input Sans Condensed")
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 339.09 172.72 0)
+			(effects
+				(font
+					(face "Input Sans Condensed")
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "4x2ИЛИ"
+			(at 347.98 181.61 0)
+			(effects
+				(font
+					(face "Input Sans Condensed")
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "ad757bed-9b78-4bb5-a229-be61f545e7b3")
+		)
+		(pin "3"
+			(uuid "117643f8-1749-41c2-b573-d39bc601430d")
+		)
+		(pin "11"
+			(uuid "33f86b59-e4c7-4471-be0d-c7b6b061c98e")
+		)
+		(pin "4"
+			(uuid "876cb1a6-3974-4054-bb0a-6e15d6f9b22f")
+		)
+		(pin "8"
+			(uuid "2b21588d-03b1-447b-9fe8-537b1ceb4989")
+		)
+		(pin "12"
+			(uuid "936f7a5d-1150-4854-920b-6f17878b263e")
+		)
+		(pin "9"
+			(uuid "941e648c-eab1-4c17-85db-52b9615a1907")
+		)
+		(pin "6"
+			(uuid "b92b151b-24f8-4313-87f3-7d25d73ceab2")
+		)
+		(pin "7"
+			(uuid "212c8852-e2a9-41d6-a7c6-895eadb89d39")
+		)
+		(pin "5"
+			(uuid "17a6c89c-268f-4b93-86cf-6434dd467d99")
+		)
+		(pin "1"
+			(uuid "7eb5d6d5-4200-46d4-b5bb-948d544585a2")
+		)
+		(pin "14"
+			(uuid "70ec34c3-66a5-43d7-b8dd-09370e0bfe9e")
+		)
+		(pin "10"
+			(uuid "8f1e5c67-218b-49bb-840d-0b2cb8300599")
+		)
+		(pin "13"
+			(uuid "0b595211-836b-4992-96f7-6bd2e344e7cb")
+		)
+		(instances
+			(project ""
+				(path "/50d840bf-8433-46e1-bba7-c2626ea20bd0/0e86c361-786b-4f6d-a57a-b00d3df8633f"
+					(reference "DD22")
+					(unit 3)
 				)
 			)
 		)
@@ -13430,6 +13388,117 @@
 			(project "RAM_CTR copy"
 				(path "/ddf6abd7-6a61-436d-8639-0cbed1756aab"
 					(reference "DD?")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Romychs_Logic_TTL:КР1533ЛЛ1")
+		(at 165.1 191.77 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "7ff7a1cf-6740-4e6e-942e-d9dc54e525d2")
+		(property "Reference" "DD22"
+			(at 173.99 188.468 0)
+			(do_not_autoplace yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+			)
+		)
+		(property "Value" "КР1533ЛЛ1"
+			(at 173.99 197.612 0)
+			(do_not_autoplace yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify top)
+			)
+		)
+		(property "Footprint" "Romychs_IC_DIP:DIP-14_W7.62mm"
+			(at 173.99 202.692 0)
+			(effects
+				(font
+					(face "Input Sans Condensed")
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 165.1 191.77 0)
+			(effects
+				(font
+					(face "Input Sans Condensed")
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "4x2ИЛИ"
+			(at 173.99 200.66 0)
+			(effects
+				(font
+					(face "Input Sans Condensed")
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "11"
+			(uuid "4f1feb1e-d51a-46d4-9dc1-21975d0f6cd9")
+		)
+		(pin "14"
+			(uuid "41503b4e-e016-40e9-aafb-334f49971780")
+		)
+		(pin "6"
+			(uuid "b58303b7-2ae8-4e0e-96e5-db0d4b0318b7")
+		)
+		(pin "9"
+			(uuid "c6d597d9-0611-45f8-ba97-59ac760f042b")
+		)
+		(pin "1"
+			(uuid "64b6c888-0245-4a97-a557-7c301908df98")
+		)
+		(pin "4"
+			(uuid "9effd6ab-6cb8-420a-9aa9-b0fade5a51e3")
+		)
+		(pin "2"
+			(uuid "f0317ea8-72f5-41af-b50c-7a5abdb4604e")
+		)
+		(pin "3"
+			(uuid "6d612f27-eaf9-4509-a893-3cbe9131e4b0")
+		)
+		(pin "5"
+			(uuid "62848fe3-f1a2-4237-8ea9-a3f2afe1996f")
+		)
+		(pin "10"
+			(uuid "74ad2bb6-01c8-4cef-8c22-04b3f26b3e9a")
+		)
+		(pin "7"
+			(uuid "a424e9e8-db9d-4e61-9dbf-f22362b256a1")
+		)
+		(pin "8"
+			(uuid "663c6310-1ea2-47d6-884f-74991264e5f1")
+		)
+		(pin "12"
+			(uuid "5000103e-1e84-4c57-b991-7b55e55b6844")
+		)
+		(pin "13"
+			(uuid "df69908e-e9de-41c3-8b71-1a65dd9e6937")
+		)
+		(instances
+			(project ""
+				(path "/50d840bf-8433-46e1-bba7-c2626ea20bd0/0e86c361-786b-4f6d-a57a-b00d3df8633f"
+					(reference "DD22")
 					(unit 1)
 				)
 			)
@@ -14528,133 +14597,6 @@
 				(path "/50d840bf-8433-46e1-bba7-c2626ea20bd0/0e86c361-786b-4f6d-a57a-b00d3df8633f"
 					(reference "DD23")
 					(unit 2)
-				)
-			)
-			(project "RAM_CTR copy"
-				(path "/ddf6abd7-6a61-436d-8639-0cbed1756aab"
-					(reference "DD?")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Romychs_Logic_TTL:КР1533ЛИ1")
-		(at 339.09 172.72 0)
-		(unit 3)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "e5f35aef-593e-45cf-8124-71d812baf4e7")
-		(property "Reference" "DD22"
-			(at 347.98 169.418 0)
-			(do_not_autoplace yes)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify bottom)
-			)
-		)
-		(property "Value" "КР1533ЛИ1"
-			(at 347.98 178.562 0)
-			(do_not_autoplace yes)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify top)
-			)
-		)
-		(property "Footprint" "Romychs_IC_DIP:DIP-14_W7.62mm"
-			(at 347.98 183.642 0)
-			(effects
-				(font
-					(face "Input Sans Condensed")
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 339.09 172.72 0)
-			(effects
-				(font
-					(face "Input Sans Condensed")
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "4x2И"
-			(at 347.98 181.61 0)
-			(effects
-				(font
-					(face "Input Sans Condensed")
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Supplier" "chipdip"
-			(at 347.98 185.928 0)
-			(effects
-				(font
-					(face "Input Sans Condensed")
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "13"
-			(uuid "c8d67a90-32b1-4bbc-afe3-77dd7d92a248")
-		)
-		(pin "7"
-			(uuid "13844536-1bd5-4e65-a601-393963f9a252")
-		)
-		(pin "2"
-			(uuid "d651f814-479f-4b9a-802e-ccd051b33fc3")
-		)
-		(pin "12"
-			(uuid "6d5adc1f-14be-4c15-9323-ab1bcaea2ec4")
-		)
-		(pin "8"
-			(uuid "478aff60-9b4b-42af-bf06-6834e17b7094")
-		)
-		(pin "5"
-			(uuid "52617b09-ee09-463f-87a5-a6a856a9cdaf")
-		)
-		(pin "11"
-			(uuid "892853e1-b4eb-4da4-85e4-e944c4edc671")
-		)
-		(pin "3"
-			(uuid "9b51c887-555a-45a4-aa8a-93f7a71be1c2")
-		)
-		(pin "6"
-			(uuid "07d01ca3-637d-4f1c-b120-9f29f3b44200")
-		)
-		(pin "1"
-			(uuid "27039415-7477-478a-8c43-bb38ba634d52")
-		)
-		(pin "10"
-			(uuid "028da61b-275f-4275-b43f-8263591c695b")
-		)
-		(pin "4"
-			(uuid "f333649d-d254-409c-aae4-523469529f39")
-		)
-		(pin "14"
-			(uuid "07b5938d-c722-4bbb-8bde-01195c63c0df")
-		)
-		(pin "9"
-			(uuid "a14b9745-a1c4-4f24-82d8-9d123a1a775a")
-		)
-		(instances
-			(project ""
-				(path "/50d840bf-8433-46e1-bba7-c2626ea20bd0/0e86c361-786b-4f6d-a57a-b00d3df8633f"
-					(reference "DD22")
-					(unit 3)
 				)
 			)
 			(project "RAM_CTR copy"
